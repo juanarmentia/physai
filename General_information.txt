@@ -1,0 +1,33 @@
+In the following lines you can observe an example of entity.
+
+{
+	"_id": "sYwRanAB_QAGzrf9leAZ",
+	"_index": "public_transport_rt-000003",
+	"_score": 1.0,
+	"_source": {
+		"@timestamp": "2020-02-21T23:25:02.038Z",
+		"@version": "1",
+		"entity": {
+			"id": "1",
+			"vehicle": {
+				"position": {
+					"location": {
+						"lat": -33.843513,
+						"lon": 151.21075
+					}
+				}
+			},
+			"vehicle.congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+			"vehicle.id": "8976.5901.4168.6816.7829.4351.9418.8567",
+			"vehicle.label": "10:15 Central Station to Berowra Station ",
+			"vehicle.position.latitude": "-33.843513",
+			"vehicle.position.longitude": "151.21075",
+			"vehicle.stop_id": "NorthSydney.NS335 Loc",
+			"vehicle.timestamp": "1582327476",
+			"vehicle.trip.route_id": "NSN_1a",
+			"vehicle.trip.schedule_relationship": "SCHEDULED",
+			"vehicle.trip.trip_id": "102F.1349.125.130.T.8.60162129",
+			"vehicle.type": "TRAIN"
+		}
+	}
+}
